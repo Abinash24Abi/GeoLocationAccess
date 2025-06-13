@@ -3,7 +3,7 @@ const OFFICE_LOCATION = {
   longitude:79.31257083372397
 };
 
-const OFFICE_RADIUS = 100; // meters
+const OFFICE_RADIUS = 500; // meters
 
 const getDistance = (lat1, lon1, lat2, lon2) => {
   const R = 6371000; // Earth radius in meters
